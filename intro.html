@@ -3,22 +3,68 @@
 <head>
 <title>네미시스 팬 페이지</title>
 <meta charset="utf-8">
+<style>
+#grid{
+display:grid;
+grid-template-columns: 250px 1fr ;
+}
+a{
+  color:black;
+  text-decoration:  none;
+}
+img{
+margin:10px;
+
+}
+h1{
+font-size: 50px;text-align: center;
+border-bottom: 2px solid red;
+margin:0;
+padding:20px;
+}
+ul{
+  border-right:1px solid red;
+  width:200px;
+  margin:0;
+  padding:20px;
+}
+@media(max-width:800px){
+  #grid{
+display:block;
+}
+ul{
+border-right:none;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+}
+
+</style>
 </head>
 
 <body>
+<h1><a href="index.html">Nemesis</a></h1>
+<div id="grid">
 <ul>
-  <li><a href="intro.html">멤버소개</a></li>
+  <li><a href="intro.html" style="color:red">멤버소개</a></li>
   <li><a href="1.html">1집 La Rose de Versailles</a></li>
   <li><a href="2.html">2집 Lovesick</a></li>
   <li><a href="3-1.html">3집 Part. 1 The Piano</a></li>
   <li><a href="3-2.html">3집 Part. 2 Dream</a></li>
   <li><a href ="4.html">4집 White Night</a></li>
 </ul>
-<center><h1><a href="index.html">네미시스</a></h1>
+<div>
+  <center>
 <img src="그림1.png" width = "450"><br>
 
 미성의 고음을 가지고 있으면서도 때론 거칠고, 때론 눈물 나는 애절함을 표현하는 보컬 노승호<br>
 앨범 전곡을 작곡하고 기타, 피아노, 스트링, 신디사이저 등을 직접 연주하고 녹음한 기타,피아노 하세빈<br>
 뛰어난 리듬감과 재기발랄한 어프로치로 개성을 부여하는 베이스 최성우<br>
 강렬하고 파워풀한 드럼으로 독보적인 팀 색깔을 확립하는 드럼 정의석<br>
+</center>
+</div>
+</div>
+
 </body></html>
